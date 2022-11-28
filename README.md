@@ -6,4 +6,4 @@ In the project directory, you can run:
 
 ## Sprint 1 Notes
 
-Our submission for Sprint 1 provides a user interface template that we will use in the later sprints.
+
