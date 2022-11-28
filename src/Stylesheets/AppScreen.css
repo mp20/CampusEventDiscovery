@@ -1,0 +1,89 @@
+.AppScreen-header-Student,
+.AppScreen-header-Teacher,
+.AppScreen-header-Organizer,
+.AppScreen-header-Admin {
+  display: flex;
+  justify-content: space-between;
+  height: 48pt;
+  background-color: #163864;
+}
+
+.header-profile {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.header-profile-text {
+  text-align: center;
+}
+
+.profile-icon {
+  margin: 10.5pt;
+  margin-left: 5pt;
+}
+
+.header-profile-name {
+  margin-top: 12pt;
+  margin-right: 0pt;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.header-profile-type {
+  text-align: right;
+  color: white;
+  font-size: 9pt;
+}
+
+.hamburger-menu {
+  margin: 16.5pt;
+  cursor: pointer;
+}
+
+.centered-logo {
+  position: absolute;
+  left: calc(50vw - 86pt);
+  height: 36pt;
+  width: 173pt;
+  margin-top: 6pt;
+}
+
+.AppScreen-body {
+  display: flex;
+  align-items: stretch;
+}
+
+.AppScreen-body-events,
+.AppScreen-body-map {
+  flex: 1;
+  height: calc(100vh - 60px);
+}
+
+.AppScreen-body-events {
+  border-right: 3px #1f1f1f solid;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+  margin-left: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.AppScreen-body-map {
+  text-align: center;
+}
+
+.popup-edit-button {
+  color: blue;
+  width: min-content;
+  margin: 0 auto;
+}
+
+.popup-edit-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
